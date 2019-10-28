@@ -34,5 +34,11 @@
 	<string>$(PRODUCT_MODULE_NAME).ExtensionDelegate</string>
 	<key>WKWatchOnly</key>
 	<true/>
+	<key>NSMotionUsageDescription</key>
+	<string>this app needs your motion to play beats!</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>accelerometer</string>
+	</array>
 </dict>
 </plist>
